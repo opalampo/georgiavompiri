@@ -1,0 +1,255 @@
+#about div {
+  text-align: center;
+
+}
+
+@media screen and (max-width: 1149px) {
+  .full-CV {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .full-CV-small-screen {
+    display: none;
+  }
+}
+
+.full-CV, .full-CV-small-screen {
+  color: #323232;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .full-CV, .full-CV-small-screen {
+    margin-bottom: 30px;
+  }
+
+  #education, #professional-experience {
+    margin-bottom: 50px;
+  }
+}
+
+.pad0 {
+  padding: 0;
+}
+
+.full-CV p, .full-CV-small-screen p {
+  font-size: 1.5em;
+}
+
+.full-CV a, .full-CV-small-screen a {
+  color: $primary-color;
+}
+
+.full-CV a:hover, .full-CV-small-screen a:hover {
+  color: #2AC2AF;
+}
+
+.full-CV span, .full-CV-small-screen span {
+  margin-left: 20px;
+  color: #CA4544;
+}
+
+.education-experience-languages {
+  margin-bottom: 40px;
+}
+
+body .fa-graduation-cap, body .fa-briefcase, body .fa-language, body .fa-desktop {
+  font-size: 10em;
+  color: $primary-color;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 820px) {
+  body .fa-graduation-cap, body .fa-briefcase, body .fa-language {
+    color: $primary-color;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body .fa-graduation-cap, body .fa-briefcase, body .fa-language {
+    font-size: 10em;
+
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+#education div {
+  //padding: 0 30px 0 30px;
+}
+
+/*--------------------------languages-------------------------------*/
+
+.div-flag {
+  margin-bottom: 15px;
+  height: 35px;
+}
+
+.div-flag img {
+  width: 60px;
+  //border-radius: 15px;
+  //opacity: 1;
+}
+
+#languages .small-9 {
+  height: 100%;
+  width: 1%;
+  float: left;
+  //border-top-right-radius: 3px;
+  //border-bottom-right-radius: 3px;
+  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, .6);
+
+}
+
+#greek-bar {
+
+  border: 1px solid #8dc5be;
+
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #5FB2A8 0%, #B0DBD6 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #5FB2A8 0%, #B0DBD6 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(left, #5FB2A8 0%, #B0DBD6 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #5FB2A8), color-stop(1, #B0DBD6));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #5FB2A8 0%, #B0DBD6 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #5FB2A8 0%, #B0DBD6 100%);
+}
+
+#german-bar {
+  border: 1px solid #e7af30;
+
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #DFAE36 0%, #EFC563 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #DFAE36 0%, #EFC563 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(left, #DFAE36 0%, #EFC563 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #DFAE36), color-stop(1, #EFC563));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #DFAE36 0%, #EFC563 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #DFAE36 0%, #EFC563 100%);
+}
+
+#english-bar {
+  border: 1px solid #e14949;
+
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #CA4544 0%, #DA6D6C 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #CA4544 0%, #DA6D6C 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(left, #CA4544 0%, #DA6D6C 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #CA4544), color-stop(1, #DA6D6C));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #CA4544 0%, #DA6D6C 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #CA4544 0%, #DA6D6C 100%);
+}
+
+#italian-bar {
+
+  border: 1px solid #2F9928;
+
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #2F9928 0%, #4BCF31 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #2F9928 0%, #4BCF31 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(left, #2F9928 0%, #4BCF31 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #2F9928), color-stop(1, #4BCF31));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #2F9928 0%, #4BCF31 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #2F9928 0%, #4BCF31 100%);
+}
+
+#dutch-bar {
+
+  border: 1px solid #F08629;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #F08629 0%, #F5A447 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #F08629 0%, #F5A447 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(left, #F08629 0%, #F5A447 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #F08629), color-stop(1, #F5A447));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #F08629 0%, #F5A447 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #F08629 0%, #F5A447 100%);
+
+}
+
+#french-bar {
+
+  border: 1px solid #ebc0b5;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #E1AE9E 0%, #F4DCD6 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #E1AE9E 0%, #F4DCD6 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(left, #E1AE9E 0%, #F4DCD6 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #E1AE9E), color-stop(1, #F4DCD6));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #E1AE9E 0%, #F4DCD6 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #E1AE9E 0%, #F4DCD6 100%);
+
+}
+
+/*--------------modal displayed for CV---------------------------*/
+#CV {
+  background-color: #323232;
+  width: 881px;
+  height: 740px;
+}
+
+

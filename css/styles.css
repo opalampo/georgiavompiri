@@ -1,0 +1,1237 @@
+@media screen and (max-width: 1200px) {
+  /* line 2, ../scss/_3-line-menu.scss */
+  .box-shadow-menu {
+    display: block;
+  }
+}
+@media screen and (min-width: 1201px) {
+  /* line 8, ../scss/_3-line-menu.scss */
+  .box-shadow-menu {
+    display: none;
+  }
+}
+/* line 13, ../scss/_3-line-menu.scss */
+.box-shadow-menu {
+  position: fixed;
+  right: 20px;
+  top: 13px;
+  height: 45px;
+  width: 45px;
+}
+
+/* line 21, ../scss/_3-line-menu.scss */
+.box-shadow-menu:hover {
+  opacity: 0.3;
+}
+
+/* line 25, ../scss/_3-line-menu.scss */
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 2em;
+  height: 0.25em;
+  background: white;
+  box-shadow: 0 1em 0 0 white, 0 0.5em 0 0 white;
+}
+
+/* line 1, ../scss/_about.scss */
+#about div {
+  text-align: center;
+}
+
+@media screen and (max-width: 1149px) {
+  /* line 7, ../scss/_about.scss */
+  .full-CV {
+    display: none;
+  }
+}
+@media screen and (min-width: 1150px) {
+  /* line 13, ../scss/_about.scss */
+  .full-CV-small-screen {
+    display: none;
+  }
+}
+/* line 18, ../scss/_about.scss */
+.full-CV, .full-CV-small-screen {
+  color: #323232;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 24, ../scss/_about.scss */
+  .full-CV, .full-CV-small-screen {
+    margin-bottom: 30px;
+  }
+
+  /* line 28, ../scss/_about.scss */
+  #education, #professional-experience {
+    margin-bottom: 50px;
+  }
+}
+/* line 33, ../scss/_about.scss */
+.pad0 {
+  padding: 0;
+}
+
+/* line 37, ../scss/_about.scss */
+.full-CV p, .full-CV-small-screen p {
+  font-size: 1.5em;
+}
+
+/* line 41, ../scss/_about.scss */
+.full-CV a, .full-CV-small-screen a {
+  color: #16ab99;
+}
+
+/* line 45, ../scss/_about.scss */
+.full-CV a:hover, .full-CV-small-screen a:hover {
+  color: #2AC2AF;
+}
+
+/* line 49, ../scss/_about.scss */
+.full-CV span, .full-CV-small-screen span {
+  margin-left: 20px;
+  color: #CA4544;
+}
+
+/* line 54, ../scss/_about.scss */
+.education-experience-languages {
+  margin-bottom: 40px;
+}
+
+/* line 58, ../scss/_about.scss */
+body .fa-graduation-cap, body .fa-briefcase, body .fa-language, body .fa-desktop {
+  font-size: 10em;
+  color: #16ab99;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 820px) {
+  /* line 65, ../scss/_about.scss */
+  body .fa-graduation-cap, body .fa-briefcase, body .fa-language {
+    color: #16ab99;
+    margin-bottom: 30px;
+  }
+
+  /* line 70, ../scss/_about.scss */
+  h3 {
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 76, ../scss/_about.scss */
+  body .fa-graduation-cap, body .fa-briefcase, body .fa-language {
+    font-size: 10em;
+  }
+
+  /* line 80, ../scss/_about.scss */
+  h3 {
+    font-size: 1.5em;
+  }
+}
+/*--------------------------languages-------------------------------*/
+/* line 91, ../scss/_about.scss */
+.div-flag {
+  margin-bottom: 15px;
+  height: 35px;
+}
+
+/* line 96, ../scss/_about.scss */
+.div-flag img {
+  width: 60px;
+}
+
+/* line 102, ../scss/_about.scss */
+#languages .small-9 {
+  height: 100%;
+  width: 1%;
+  float: left;
+  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+/* line 112, ../scss/_about.scss */
+#greek-bar {
+  border: 1px solid #8dc5be;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #5fb2a8 0%, #b0dbd6 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #5fb2a8 0%, #b0dbd6 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #5fb2a8 0%, #b0dbd6 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #5fb2a8), color-stop(1, #b0dbd6));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #5fb2a8 0%, #b0dbd6 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #5fb2a8 0%, #b0dbd6 100%);
+}
+
+/* line 135, ../scss/_about.scss */
+#german-bar {
+  border: 1px solid #e7af30;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #dfae36 0%, #efc563 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #dfae36 0%, #efc563 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #dfae36 0%, #efc563 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #dfae36), color-stop(1, #efc563));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #dfae36 0%, #efc563 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #dfae36 0%, #efc563 100%);
+}
+
+/* line 157, ../scss/_about.scss */
+#english-bar {
+  border: 1px solid #e14949;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #ca4544 0%, #da6d6c 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #ca4544 0%, #da6d6c 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #ca4544 0%, #da6d6c 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ca4544), color-stop(1, #da6d6c));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #ca4544 0%, #da6d6c 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #ca4544 0%, #da6d6c 100%);
+}
+
+/* line 179, ../scss/_about.scss */
+#italian-bar {
+  border: 1px solid #2F9928;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #2f9928 0%, #4bcf31 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #2f9928 0%, #4bcf31 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #2f9928 0%, #4bcf31 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #2f9928), color-stop(1, #4bcf31));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #2f9928 0%, #4bcf31 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #2f9928 0%, #4bcf31 100%);
+}
+
+/* line 202, ../scss/_about.scss */
+#dutch-bar {
+  border: 1px solid #F08629;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #f08629 0%, #f5a447 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #f08629 0%, #f5a447 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #f08629 0%, #f5a447 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f08629), color-stop(1, #f5a447));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #f08629 0%, #f5a447 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #f08629 0%, #f5a447 100%);
+}
+
+/* line 225, ../scss/_about.scss */
+#french-bar {
+  border: 1px solid #ebc0b5;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #e1ae9e 0%, #f4dcd6 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #e1ae9e 0%, #f4dcd6 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #e1ae9e 0%, #f4dcd6 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e1ae9e), color-stop(1, #f4dcd6));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #e1ae9e 0%, #f4dcd6 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #e1ae9e 0%, #f4dcd6 100%);
+}
+
+/*--------------modal displayed for CV---------------------------*/
+/* line 249, ../scss/_about.scss */
+#CV {
+  background-color: #323232;
+  width: 881px;
+  height: 740px;
+}
+
+/* line 2, ../scss/_allstyles.scss */
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.05em;
+  font-weight: 400;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 11, ../scss/_allstyles.scss */
+body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 17, ../scss/_allstyles.scss */
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.05em;
+  margin: 0;
+}
+
+/* line 23, ../scss/_allstyles.scss */
+h2 {
+  font-size: 2.5em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 200px;
+}
+
+/* line 31, ../scss/_allstyles.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 35, ../scss/_allstyles.scss */
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 40, ../scss/_allstyles.scss */
+  h2 {
+    font-size: 1.7em;
+    line-height: 130px;
+  }
+}
+@media screen and (max-width: 421px) {
+  /* line 47, ../scss/_allstyles.scss */
+  h2 {
+    font-size: 1.6em;
+    line-height: 80px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  /* line 54, ../scss/_allstyles.scss */
+  #about-separator h2 {
+    line-height: 40px;
+  }
+}
+/* line 60, ../scss/_allstyles.scss */
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: #323232;
+}
+
+/* line 68, ../scss/_allstyles.scss */
+a {
+  cursor: pointer;
+}
+
+/* line 72, ../scss/_allstyles.scss */
+a:focus {
+  color: white;
+}
+
+/* line 76, ../scss/_allstyles.scss */
+.row {
+  max-width: 70em;
+}
+
+/* line 80, ../scss/_allstyles.scss */
+.fullWidth {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 86, ../scss/_allstyles.scss */
+  .navigation-menu {
+    display: none;
+  }
+
+  /* line 90, ../scss/_allstyles.scss */
+  .sociallink {
+    display: none;
+  }
+}
+/* line 95, ../scss/_allstyles.scss */
+.separator {
+  height: 200px;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  background-color: #323232;
+  margin-bottom: 100px;
+}
+
+/* line 104, ../scss/_allstyles.scss */
+#projects-separator, #contact-separator {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 109, ../scss/_allstyles.scss */
+  .separator {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 115, ../scss/_allstyles.scss */
+  .separator {
+    height: 130px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 421px) {
+  /* line 122, ../scss/_allstyles.scss */
+  .separator {
+    height: 80px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  /* line 129, ../scss/_allstyles.scss */
+  .navigation-menu {
+    display: block;
+  }
+
+  /* line 133, ../scss/_allstyles.scss */
+  .sociallink {
+    display: block;
+  }
+
+  /* line 137, ../scss/_allstyles.scss */
+  #about-separator {
+    max-width: 1200px;
+    height: 1px;
+  }
+}
+/* line 147, ../scss/_allstyles.scss */
+.top-bar {
+  background: none;
+}
+
+/* line 151, ../scss/_allstyles.scss */
+.nav-bar {
+  background-color: #323232;
+  height: 60px;
+  z-index: 100;
+}
+
+@media screen and (min-width: 1201px) {
+  /* line 159, ../scss/_allstyles.scss */
+  .nav-bar {
+    max-width: 1200px;
+    margin-left: -600px;
+    left: 50%;
+    top: 20px;
+    border-radius: 30px;
+  }
+}
+/* line 168, ../scss/_allstyles.scss */
+#nav {
+  width: 1200px;
+  position: relative;
+  margin-left: -600px;
+  left: 50%;
+}
+
+/* line 175, ../scss/_allstyles.scss */
+#nav ul {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 181, ../scss/_allstyles.scss */
+#nav li {
+  display: inline-block;
+  float: none;
+}
+
+/* line 186, ../scss/_allstyles.scss */
+#nav ul li:last-child {
+  position: relative;
+  left: 270px;
+  vertical-align: middle;
+}
+
+/* line 192, ../scss/_allstyles.scss */
+#linkedin-fa {
+  font-size: 1.6em;
+}
+
+/* line 196, ../scss/_allstyles.scss */
+#nav ul li:nth-child(2), #nav ul li:nth-child(3), #nav ul li:nth-child(4), #nav ul li:nth-child(5) {
+  position: relative;
+  left: -40px;
+}
+
+/* line 201, ../scss/_allstyles.scss */
+#nav ul li:first-child {
+  position: relative;
+  left: -300px;
+  bottom: 2px;
+}
+
+/* line 207, ../scss/_allstyles.scss */
+nav img {
+  width: 102px;
+}
+
+/* line 211, ../scss/_allstyles.scss */
+nav ul li a {
+  line-height: 60px;
+  color: white;
+  padding: 0 8px 0 8px;
+}
+
+/* line 217, ../scss/_allstyles.scss */
+nav ul li a:hover {
+  color: white;
+  opacity: 0.3;
+}
+
+/* line 222, ../scss/_allstyles.scss */
+.building-sketch {
+  width: 100%;
+}
+
+/* Style for the contact form and status messages */
+/* line 2, ../scss/_contact.scss */
+::-webkit-input-placeholder {
+  font-size: inherit;
+  color: #606060;
+}
+
+/* line 7, ../scss/_contact.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #606060;
+  font-size: inherit;
+}
+
+/* line 13, ../scss/_contact.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #606060;
+  font-size: inherit;
+}
+
+/* line 19, ../scss/_contact.scss */
+#senderName:-ms-input-placeholder {
+  color: #606060;
+  font-size: inherit;
+}
+
+/* line 24, ../scss/_contact.scss */
+#senderEmail:-ms-input-placeholder {
+  color: #606060;
+  font-size: inherit;
+}
+
+/* line 29, ../scss/_contact.scss */
+#senderSubject:-ms-input-placeholder {
+  color: #606060;
+  font-size: inherit;
+}
+
+/* line 34, ../scss/_contact.scss */
+#message:-ms-input-placeholder {
+  color: #606060;
+  font-size: inherit;
+}
+
+/* line 39, ../scss/_contact.scss */
+#dark-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 101;
+  display: none;
+}
+
+@media screen and (max-width: 756px) {
+  /* line 51, ../scss/_contact.scss */
+  body #contactForm {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 57, ../scss/_contact.scss */
+  body #message {
+    height: 155px;
+  }
+
+  /* line 61, ../scss/_contact.scss */
+  body #senderEmail {
+    margin-top: 0;
+  }
+}
+/* line 66, ../scss/_contact.scss */
+#contact-separator {
+  margin-bottom: 0;
+}
+
+/* line 70, ../scss/_contact.scss */
+#contact {
+  background-color: #323232;
+}
+
+/* line 74, ../scss/_contact.scss */
+#contactForm {
+  height: 407px;
+  color: #fff;
+  max-width: 1000px;
+}
+
+/* line 80, ../scss/_contact.scss */
+.statusMessage {
+  color: #000;
+  background-color: #aaa;
+  -moz-box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.5);
+  opacity: .95;
+  z-index: 102;
+}
+
+/* Dimensions and position of the status messages */
+/* line 93, ../scss/_contact.scss */
+.statusMessage {
+  display: none;
+  margin: auto;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 105, ../scss/_contact.scss */
+.statusMessage p {
+  text-align: center;
+  line-height: 50px;
+}
+
+/* line 110, ../scss/_contact.scss */
+#senderName, #senderEmail, #senderSubject {
+  height: 50px;
+  padding: 0 0 0.1rem 0.5rem;
+  font-size: 0.9em;
+  border: 1px solid #303030;
+  background: #282828;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.03);
+}
+
+/* line 121, ../scss/_contact.scss */
+#senderName, #senderEmail {
+  margin-top: 18px;
+}
+
+/* line 125, ../scss/_contact.scss */
+#message {
+  font-size: 0.9em;
+  border: 1px solid #303030;
+  background: #282828;
+  border-radius: 8px;
+  color: white;
+  box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.03);
+  min-height: 100px;
+  height: 207px;
+  resize: none;
+}
+
+/* line 137, ../scss/_contact.scss */
+textarea:focus {
+  background: #282828;
+  color: white;
+  box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.03);
+}
+
+/* Place a border around focused fields, and hide the inner shadow */
+/* line 145, ../scss/_contact.scss */
+#contactForm *:focus {
+  border: 1px solid #16ab99;
+  outline: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+/* line 153, ../scss/_contact.scss */
+#sendMessage:focus, #clear:focus {
+  border: none;
+}
+
+/* The Send and Clear buttons */
+/* line 159, ../scss/_contact.scss */
+.send-button-div {
+  text-align: right;
+}
+
+/* line 163, ../scss/_contact.scss */
+.send-button-div input {
+  margin-right: 10px;
+}
+
+/* line 167, ../scss/_contact.scss */
+.clear-button-div {
+  text-align: left;
+}
+
+/* line 171, ../scss/_contact.scss */
+.clear-button-div input {
+  margin-left: 10px;
+}
+
+/* line 175, ../scss/_contact.scss */
+input[type="submit"], input[type="button"] {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 0.9em;
+  letter-spacing: 0px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* line 192, ../scss/_contact.scss */
+input[type="submit"] {
+  width: 120px;
+  height: 40px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 1;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #107367), color-stop(1, #0b5249));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to bottom, #107367 0%, #0b5249 100%);
+  box-shadow: inset 0px 0px 0px 1px #0e1e27, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+/* line 225, ../scss/_contact.scss */
+#clear {
+  color: #fff;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(top, #464646 0%, #35393b 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #464646 0%, #35393b 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #464646 0%, #35393b 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #464646), color-stop(1, #35393b));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #464646 0%, #35393b 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to bottom, #464646 0%, #35393b 100%);
+  box-shadow: inset 0px 0px 0px 1px #0e1e27, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+/* line 248, ../scss/_contact.scss */
+input[type="submit"]:hover {
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(top, #128577 0%, #0b5249 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #128577 0%, #0b5249 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #128577 0%, #0b5249 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #128577), color-stop(1, #0b5249));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #128577 0%, #0b5249 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to bottom, #128577 0%, #0b5249 100%);
+  box-shadow: inset 0px 0px 0px 1px #0e1e27, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.8);
+}
+
+/* line 269, ../scss/_contact.scss */
+#clear:hover {
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(top, #636163 0%, #35393b 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #636163 0%, #35393b 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #636163 0%, #35393b 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #636163), color-stop(1, #35393b));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #636163 0%, #35393b 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to bottom, #636163 0%, #35393b 100%);
+  box-shadow: inset 0px 0px 0px 1px #0e1e27, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.8);
+}
+
+/* line 291, ../scss/_contact.scss */
+#sendMessage:active {
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #107367), color-stop(1, #0b5249));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #107367 0%, #0b5249 100%);
+  box-shadow: inset 0px 0px 0px 1px #0e1e27, inset 0px -1px 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+/* line 310, ../scss/_contact.scss */
+#clear:active {
+  background-image: -ms-linear-gradient(top, #636163 0%, #35393b 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #636163 0%, #35393b 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #636163 0%, #35393b 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #636163), color-stop(1, #35393b));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #636163 0%, #35393b 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to bottom, #636163 0%, #35393b 100%);
+  box-shadow: inset 0px 0px 0px 1px #0e1e27, inset 0px -1px 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+/* line 1, ../scss/_drop-down-nav.scss */
+#drop-down-nav {
+  position: fixed;
+  top: 60px;
+  list-style: none;
+  width: 100%;
+  margin-left: 0;
+  z-index: 10;
+  display: none;
+}
+
+/* line 11, ../scss/_drop-down-nav.scss */
+.show-drop-nav {
+  display: block;
+}
+
+/* line 15, ../scss/_drop-down-nav.scss */
+#drop-down-nav li {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+}
+
+/* line 22, ../scss/_drop-down-nav.scss */
+#drop-down-nav li a {
+  color: white;
+  display: inline-block;
+  width: 100%;
+  font-weight: 400;
+  background-color: #323232;
+  height: 100%;
+  line-height: 40px;
+}
+
+/* line 32, ../scss/_drop-down-nav.scss */
+#drop-down-nav li a:hover {
+  color: #000;
+  background-color: white;
+  font-weight: 600;
+  opacity: 1;
+}
+
+/* line 39, ../scss/_drop-down-nav.scss */
+#drop-down-nav ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+}
+
+/* line 2, ../scss/_home.scss */
+#home {
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 8, ../scss/_home.scss */
+#home h1 {
+  position: relative;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+/* line 16, ../scss/_home.scss */
+#civil-engineer {
+  position: absolute;
+  left: 0px;
+  top: 24%;
+  opacity: 1;
+  width: 30%;
+}
+
+/* line 24, ../scss/_home.scss */
+#integral-designer {
+  position: absolute;
+  right: 0px;
+  top: 24%;
+  opacity: 1;
+  width: 33%;
+}
+
+@media screen and (max-width: 1150px) {
+  /* line 33, ../scss/_home.scss */
+  #home h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  /* line 38, ../scss/_home.scss */
+  #div-photo-left, #div-photo-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  /* line 44, ../scss/_home.scss */
+  #civil-engineer, #integral-designer {
+    top: 15%;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* line 50, ../scss/_home.scss */
+  #home h1 {
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+  }
+
+  /* line 56, ../scss/_home.scss */
+  #home p {
+    display: none;
+  }
+
+  /* line 60, ../scss/_home.scss */
+  #civil-engineer, #integral-designer {
+    top: 30%;
+  }
+}
+/* line 65, ../scss/_home.scss */
+#move-pic {
+  position: relative;
+  max-width: 1200px;
+}
+
+/* line 70, ../scss/_home.scss */
+#georgia-pic {
+  z-index: 2;
+  position: relative;
+  left: 50%;
+  width: 40%;
+  margin-left: -20%;
+  text-align: center;
+}
+
+/* line 79, ../scss/_home.scss */
+.georgia-pic-img {
+  height: auto;
+}
+
+/* line 83, ../scss/_home.scss */
+#div-photo-left {
+  width: 300px;
+  position: absolute;
+  left: 280px;
+  top: 392px;
+  z-index: 0;
+}
+
+/* line 91, ../scss/_home.scss */
+#div-photo-right {
+  width: 330px;
+  position: absolute;
+  right: 240px;
+  top: 420px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 2, ../scss/_logo-small-screen.scss */
+  #logo-small-screen {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 1201px) {
+  /* line 8, ../scss/_logo-small-screen.scss */
+  #logo-small-screen {
+    display: none;
+  }
+}
+/* line 13, ../scss/_logo-small-screen.scss */
+#logo-small-screen {
+  position: fixed;
+  top: 0px;
+  left: 25px;
+}
+
+/* line 20, ../scss/_logo-small-screen.scss */
+#logo-small-screen:hover {
+  color: white;
+  opacity: 0.3;
+}
+
+/* line 1, ../scss/_projects.scss */
+#projects p {
+  text-align: center;
+  font-size: 1em;
+  color: #777;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+/* line 9, ../scss/_projects.scss */
+#projects div {
+  text-align: center;
+}
+
+/* line 13, ../scss/_projects.scss */
+.project-tile-div {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* line 18, ../scss/_projects.scss */
+.project-tile-div img {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+@media screen and (min-width: 1025px) {
+  /* line 24, ../scss/_projects.scss */
+  .project-tile-div img:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+/* line 31, ../scss/_projects.scss */
+.close-reveal-modal:hover {
+  color: grey;
+}
+
+/* line 35, ../scss/_projects.scss */
+#close-modal-zeroEnergyBuilding, #close-modal-towardsEnergyNeutrality, #close-modal-RWS, #close-modal-CV, #secondModal-Potentiaal .close-reveal-modal, #secondModal-Durzam .close-reveal-modal {
+  position: fixed;
+  top: 0px;
+  right: 20px;
+  font-size: 4em;
+  color: #128577;
+}
+
+/* line 43, ../scss/_projects.scss */
+#close-modal-zeroEnergyBuilding:hover, #close-modal-towardsEnergyNeutrality:hover, #close-modal-RWS:hover, #close-modal-CV:hover, #secondModal-Potentiaal .close-reveal-modal:hover, #secondModal-Durzam .close-reveal-modal:hover {
+  color: #2CA899;
+}
+
+/* line 47, ../scss/_projects.scss */
+.project-posters-list li {
+  margin-bottom: 60px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+}
+
+/* line 53, ../scss/_projects.scss */
+.project-posters-list li:last-child {
+  margin-bottom: -30px;
+  border-bottom: 0px;
+}
+
+/* line 58, ../scss/_projects.scss */
+#zeroEnergyBuilding, #towardsEnergyNeutrality, #RWS {
+  max-width: 1200px;
+  overflow: auto;
+  height: 700px;
+}
+
+/* line 64, ../scss/_projects.scss */
+#RWS {
+  text-align: center;
+}
+
+/* line 68, ../scss/_projects.scss */
+#RWS p {
+  font-size: 35px;
+  color: #128577;
+}
+
+@media screen and (min-width: 1150px) {
+  /* line 74, ../scss/_projects.scss */
+  #desktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 80, ../scss/_projects.scss */
+  .reveal-modal-bg {
+    visibility: hidden !important;
+  }
+}
+/* line 85, ../scss/_projects.scss */
+#secondModal-Potentiaal, #secondModal-Durzam {
+  overflow: auto;
+  height: 700px;
+}
+
+/* line 90, ../scss/_projects.scss */
+#secondModal-Potentiaal h2, #secondModal-Durzam h2 {
+  color: #323232;
+  line-height: 70px;
+  margin-bottom: 60px;
+}
+
+/* line 96, ../scss/_projects.scss */
+#secondModal-Potentiaal p, #secondModal-Durzam p, #secondModal-Potentiaal b, #secondModal-Durzam b, #secondModal-Durzam li {
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* line 101, ../scss/_projects.scss */
+#secondModal-Durzam ul {
+  margin-left: 0;
+}
+
+/* line 105, ../scss/_projects.scss */
+#secondModal-Potentiaal img, #secondModal-Durzam img {
+  position: relative;
+  width: 70%;
+  margin-bottom: 50px;
+  left: 50%;
+  margin-left: -35%;
+}
+
+/* line 113, ../scss/_projects.scss */
+.reveal-modal-bg {
+  background: black;
+}
+
+/* line 117, ../scss/_projects.scss */
+.secondaryButton {
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 0.9em;
+  opacity: 1;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #107367), color-stop(1, #0b5249));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #107367 0%, #0b5249 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to bottom, #107367 0%, #0b5249 100%);
+  box-shadow: inset 0px 0px 0px 1px #0e1e27, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+/* line 155, ../scss/_projects.scss */
+.secondaryButton:hover {
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(top, #128577 0%, #0b5249 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #128577 0%, #0b5249 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #128577 0%, #0b5249 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #128577), color-stop(1, #0b5249));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #128577 0%, #0b5249 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to bottom, #128577 0%, #0b5249 100%);
+  box-shadow: inset 0px 0px 0px 1px #0e1e27, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.8);
+}
+
+/* line 176, ../scss/_projects.scss */
+.secondaryButton:hover {
+  color: white;
+}
+
+/* line 1, ../scss/_footer.scss */
+footer {
+  background-color: #323232;
+}
+
+/* line 5, ../scss/_footer.scss */
+hr {
+  position: relative;
+  top: 70px;
+  border: 0;
+  border-top: solid 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+  height: 1px;
+  margin: 0 0 4em 0;
+}
+
+/* line 15, ../scss/_footer.scss */
+#logo-footer-div {
+  margin-top: 100px;
+}
+
+/* line 19, ../scss/_footer.scss */
+#logo-footer-div img {
+  width: 100%;
+}
+
+/* line 23, ../scss/_footer.scss */
+#copyright {
+  color: #777;
+  margin: 30px 0 0 0;
+  padding: 0 0 20px 0;
+}

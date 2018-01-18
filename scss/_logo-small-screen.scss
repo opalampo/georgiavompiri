@@ -1,0 +1,23 @@
+@media screen and (max-width: 1200px) {
+  #logo-small-screen {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  #logo-small-screen {
+    display: none;
+  }
+}
+
+#logo-small-screen {
+  position: fixed;
+  top: 0px;
+  left: 25px;
+
+}
+
+#logo-small-screen:hover {
+  color: white;
+  opacity: 0.3;
+}

@@ -1,0 +1,97 @@
+
+#home {
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+#home h1 {
+  position: relative;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+#civil-engineer {
+  position: absolute;
+  left: 0px;
+  top: 24%;
+  opacity: 1;
+  width: 30%;
+}
+
+#integral-designer {
+  position: absolute;
+  right: 0px;
+  top: 24%;
+  opacity: 1;
+  width: 33%;
+}
+
+@media screen and (max-width: 1150px) {
+  #home h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  #div-photo-left, #div-photo-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #civil-engineer, #integral-designer {
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home h1 {
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+  }
+
+  #home p {
+    display: none;
+  }
+
+  #civil-engineer, #integral-designer {
+    top: 30%;
+  }
+}
+
+#move-pic {
+  position: relative;
+  max-width: 1200px;
+}
+
+#georgia-pic {
+  z-index: 2;
+  position: relative;
+  left: 50%;
+  width: 40%;
+  margin-left: -20%;
+  text-align: center;
+}
+
+.georgia-pic-img {
+  height: auto;
+}
+
+#div-photo-left {
+  width: 300px;
+  position: absolute;
+  left: 280px;
+  top: 392px;
+  z-index: 0;
+}
+
+#div-photo-right {
+  width: 330px;
+  position: absolute;
+  right: 240px;
+  top: 420px;
+  z-index: 0;
+}
